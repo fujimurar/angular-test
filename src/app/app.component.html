@@ -1,1 +1,6 @@
-<p>Start editing to see some magic happen my :)</p>
+<div class="page-container" [@fadeIn]="prepareRoute(outlet)">
+  <div class="animation-container">
+    <router-outlet #outlet="outlet"></router-outlet>
+    <p>sas</p>
+  </div>
+</div>
